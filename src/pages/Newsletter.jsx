@@ -74,7 +74,7 @@ const Newsletter = () => {
         style={{ marginTop: "0.5rem" }}
         disabled={isSubmitting}
       >
-        {isSubmitting ? "submitting" : "submit"}
+        {isSubmitting ? "submitting..." : "submit"}
       </button>
     </Form>
   );
